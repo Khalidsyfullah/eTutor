@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="330dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/c8"
+            android:textColor="#040404"
+            android:textSize="21sp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:ms_background_color="#ECEFF1"
+            app:ms_padding_bottom="1dp"
+            app:ms_padding_left="18dp"
+            app:ms_padding_right="8dp"
+            app:ms_padding_top="1dp" />
+
+        <TextView
+            android:id="@+id/textView55"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/f15"
+            android:textColor="#040404"
+            android:textSize="21sp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:ms_background_color="#ECEFF1"
+            app:ms_padding_bottom="1dp"
+            app:ms_padding_left="18dp"
+            app:ms_padding_right="8dp"
+            app:ms_padding_top="1dp" />
+
+        <TextView
+            android:id="@+id/textView56"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/f16"
+            android:textColor="#040404"
+            android:textSize="21sp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:ms_background_color="#ECEFF1"
+            app:ms_padding_bottom="1dp"
+            app:ms_padding_left="18dp"
+            app:ms_padding_right="8dp"
+            app:ms_padding_top="1dp" />
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/g1"
+            android:textColor="#040404"
+            android:textSize="21sp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="1dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:ms_background_color="#ECEFF1"
+            app:ms_padding_bottom="1dp"
+            app:ms_padding_left="18dp"
+            app:ms_padding_right="8dp"
+            app:ms_padding_top="1dp" />
+
+        <TextView
+            android:id="@+id/textView59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="5dp"
+            android:fontFamily="@font/roboto"
+            android:text="@string/g2"
+            android:textColor="#040404"
+            android:textSize="21sp" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="35dp"
+            android:fontFamily="@font/roboto"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:ms_background_color="#ECEFF1"
+            app:ms_padding_bottom="1dp"
+            app:ms_padding_left="18dp"
+            app:ms_padding_right="8dp"
+            app:ms_padding_top="1dp" />
+
+        <Button
+            android:id="@+id/button33"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/e5"
+            android:fontFamily="@font/roboto"
+            android:text="@string/f14"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/button32"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/et4"
+            android:fontFamily="@font/roboto"
+            android:text="@string/f13"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</ScrollView>

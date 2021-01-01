@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "870810800611",
+    "project_id": "e-tutor-b2",
+    "storage_bucket": "e-tutor-b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870810800611:android:eb6ece159c8eef809510d6",
+        "android_client_info": {
+          "package_name": "com.akapps.etutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870810800611-dkbpqf6eeaj4r3d8u0pflm8e7ourhev9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJXmkEhoVulFegoYYnHomUshMvaIcC6LY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870810800611-dkbpqf6eeaj4r3d8u0pflm8e7ourhev9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

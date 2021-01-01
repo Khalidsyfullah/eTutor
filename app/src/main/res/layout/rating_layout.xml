@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/e8"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        style="@android:style/Widget.Holo.RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:progressBackgroundTint="@color/r2"
+        android:progressTint="@color/r3"
+        android:secondaryProgressTint="@color/r1"
+        android:stepSize="1"
+        tools:targetApi="lollipop" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:autofillHints="@string/a1"
+        android:background="@drawable/e4"
+        android:drawablePadding="10dp"
+        android:ems="10"
+        android:fontFamily="@font/arbutus_slab"
+        android:gravity="start"
+        android:hint="@string/g3"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textColorHint="#333333"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/e5"
+        android:fontFamily="@font/roboto"
+        android:onClick="onRegistrationClicked"
+        android:text="@string/g4"
+        android:textAllCaps="false"
+        android:textColor="#454545"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/et4"
+        android:fontFamily="@font/roboto"
+        android:onClick="onRegistrationClicked"
+        android:text="@string/g5"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+</LinearLayout>

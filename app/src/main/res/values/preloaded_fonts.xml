@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adamina</item>
+        <item>@font/arbutus_slab</item>
+        <item>@font/arvo</item>
+        <item>@font/averia_serif_libre</item>
+        <item>@font/bentham</item>
+        <item>@font/cairo</item>
+        <item>@font/cambo</item>
+        <item>@font/coda</item>
+        <item>@font/donegal_one</item>
+        <item>@font/roboto</item>
+    </array>
+</resources>

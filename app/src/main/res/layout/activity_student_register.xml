@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".StudentRegister">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="@drawable/e2"
+                android:fontFamily="@font/arbutus_slab"
+                android:gravity="center"
+                android:padding="6dp"
+                android:textColor="#272727"
+                android:textSize="30sp"
+                app:drawableEndCompat="@drawable/ic_baseline_arrow_back_24"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="50dp"
+                android:background="@drawable/e2"
+                android:fontFamily="@font/arbutus_slab"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView15"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView77"
+                android:layout_width="0dp"
+                android:layout_height="60dp"
+                android:background="@drawable/e2"
+                android:fontFamily="@font/arbutus_slab"
+                android:gravity="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/textView5"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:contentDescription="@string/a1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/ic_logo" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="20dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/cairo"
+                android:gravity="center"
+                android:text="@string/h7"
+                android:textColor="#000000"
+                android:textSize="24sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/roboto"
+            android:gravity="center|start"
+            android:padding="1dp"
+            android:text="@string/b1"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints="@string/a1"
+            android:background="@drawable/e6"
+            android:drawableStart="@drawable/ic_name_new"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:fontFamily="@font/cairo"
+            android:gravity="center|start"
+            android:hint="@string/a11"
+            android:inputType="textMultiLine|textPersonName"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textColorHint="#717171"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints="@string/a1"
+            android:background="@drawable/e6"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/cairo"
+            android:gravity="center|start"
+            android:hint="@string/a7"
+            android:inputType="textMultiLine|textPersonName"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textColorHint="#717171"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints="@string/a1"
+            android:background="@drawable/e6"
+            android:drawableStart="@drawable/ic_phone_new"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/cairo"
+            android:gravity="center|start"
+            android:hint="@string/a12"
+            android:inputType="phone"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textColorHint="#717171"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="15dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_male"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/roboto"
+                android:paddingStart="4dp"
+                android:paddingEnd="1dp"
+                android:text="@string/a16"
+                android:textColor="#454545"
+                android:textSize="20sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:drawableStart="@drawable/ic_female"
+                android:drawablePadding="-8dp"
+                android:fontFamily="@font/roboto"
+                android:paddingStart="-10dp"
+                android:paddingEnd="1dp"
+                android:text="@string/a17"
+                android:textColor="#454545"
+                android:textSize="20sp" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints="@string/a1"
+            android:background="@drawable/e6"
+            android:drawableStart="@drawable/ic_address"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/cairo"
+            android:gravity="start"
+            android:hint="@string/a14"
+            android:inputType="textMultiLine"
+            android:lines="1"
+            android:padding="4dp"
+            android:textColor="#000000"
+            android:textColorHint="#717171"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="4dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/roboto"
+            android:gravity="center|start"
+            android:padding="1dp"
+            android:text="@string/b3"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="1dp"
+            android:textColor="#303030"
+            android:textSize="20sp"
+            app:ms_arrow_tint="@color/black"
+            app:ms_background_color="#ECEFF1"
+            app:ms_padding_bottom="2dp"
+            app:ms_padding_left="15dp"
+            app:ms_padding_right="12dp"
+            app:ms_padding_top="2dp"
+            app:ms_text_color="#000000" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/roboto"
+            android:gravity="center|start"
+            android:padding="1dp"
+            android:text="@string/b2"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints="@string/a1"
+            android:background="@drawable/e6"
+            android:drawableStart="@drawable/ic_jobstatus"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/cairo"
+            android:gravity="center|start"
+            android:hint="@string/b4"
+            android:inputType="textMultiLine|textPersonName"
+            android:paddingStart="5dp"
+            android:paddingEnd="3dp"
+            android:textColor="#393939"
+            android:textColorHint="#717171"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/roboto"
+            android:gravity="center|start"
+            android:padding="1dp"
+            android:text="@string/b5"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/e6">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/e3"
+                android:contentDescription="@string/b7"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/backgrounds/scenic" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="55dp"
+                app:drawableStartCompat="@drawable/ic_upload"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView5t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="@string/b6"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button7"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/et4"
+            android:fontFamily="@font/coda"
+            android:padding="1dp"
+            android:text="@string/b7"
+            android:textAllCaps="false"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:background="@android:color/transparent"
+            android:fontFamily="@font/roboto"
+            android:gravity="center|start"
+            android:padding="1dp"
+            android:text="@string/b8"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints="@string/a1"
+            android:background="@drawable/e6"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawableEnd="@drawable/ic_hidepassword"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/cairo"
+            android:gravity="start"
+            android:hint="@string/b11"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/editText10"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="8dp"
+            android:autofillHints="@string/a1"
+            android:background="@drawable/e6"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawableEnd="@drawable/ic_hidepassword"
+            android:drawablePadding="10dp"
+            android:ems="10"
+            android:fontFamily="@font/cairo"
+            android:gravity="start"
+            android:hint="@string/b9"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="#000000"
+            android:textColorHint="#333333"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/button8"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/e5"
+            android:fontFamily="@font/coda"
+            android:onClick="onRegistrationClicked"
+            android:text="@string/b10"
+            android:textAllCaps="false"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+
+    </LinearLayout>
+</ScrollView>
